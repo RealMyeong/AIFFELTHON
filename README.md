@@ -31,7 +31,7 @@
 ## 4. 프로젝트 진행 과정 리더보드
 |기간|세부사항|Result|
 |:--:|:--:|:--:|
-| <베이스라인 설계><br>22/11/01 ~ 22/11/09 | 사용모델 : klue bert, klue roberta, KcELECTRA, KcT5<br> 성능측정 : F1 score<br> 기타사항 : 일반대화x, 전처리x|F1 score : 0.88 ~ 0.94|
+| <베이스라인 설계><br>22/11/01 ~ 22/11/09 | 사용모델 : klue bert, klue roberta, KcELECTRA, KeT5<br> 성능측정 : F1 score<br> 기타사항 : 일반대화x, 전처리x|F1 score : 0.88 ~ 0.94|
 |||
 
 ## 5. Reference
