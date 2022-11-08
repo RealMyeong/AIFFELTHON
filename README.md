@@ -9,6 +9,7 @@
 | 일반 대화 | - | 100 |
 
 훈련데이터에서 빠져있는 '일반 대화'는 [AI Hub](https://aihub.or.kr/?utm_source=google&utm_medium=search&utm_campaign=ga&gclid=CjwKCAjw6raYBhB7EiwABge5KnZuqLSaXjiqfgAETqQwG-_7B2r2e26nDY5cOiNSvrwEUrvIsW9GcRoCRCgQAvD_BwE)에서 내려받아 학습에 활용합니다.
+
 ## 2. 데이터 설명
 ### Train data
 ![](./reference/train.png)
@@ -20,12 +21,23 @@
 - json파일로 주어져있습니다.
 - 테스트데이터이므로 라벨은 없고 대화문만 있습니다.
 - 훈련데이터와는 달리 대화내용이 '\n'으로 나뉘어져있지 않습니다.
+- 
 ## 3. 프로젝트 환경
 - 프로그래밍 언어 : Python3
 - 프레임워크 : Tensorflow, Huggingface,
 - 작업 환경 : Google Colab, GCP
 - 회의록 주소 : https://www.notion.so/e204ff1bd98d445e927121eaf36b59ed
+- 
 ## 4. 프로젝트 진행 과정 리더보드
 |기간|세부사항|Result|
 |:--:|:--:|:--:|
 | <베이스라인 설계><br>22/11/01 ~ 22/11/09 | 사용모델 : klue bert, klue roberta, KcELECTRA, KcT5<br> 성능측정 : F1 score<br> 기타사항 : 일반대화x, 전처리x|F1 score : 0.88 ~ 0.94|
+|||
+
+## 5. Reference
+모델 선택
+- [한국어 사전학습 모델 (Korean Pre-trained Language Model)](https://sooftware.io/korean-plm/)
+- 추가해주세요
+
+데이터 수집
+- [AI hub](https://aihub.or.kr/?utm_source=google&utm_medium=search&utm_campaign=ga&gclid=CjwKCAjw6raYBhB7EiwABge5KnZuqLSaXjiqfgAETqQwG-_7B2r2e26nDY5cOiNSvrwEUrvIsW9GcRoCRCgQAvD_BwE)
