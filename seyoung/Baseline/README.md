@@ -1,4 +1,4 @@
-## Alpha-Test(Baseline Design)
+## Baseline Design
 | |세부내용 및 변동사항|Result|
 |:--:|:--:|:--:|
 |**1Day**|Model : klue bert base<br>Preprocess : 문장속 '\n' 제거<br>Epoch : 3|Accuracy_val : 0.92<br>Micro_F1score_val : 0.91|
