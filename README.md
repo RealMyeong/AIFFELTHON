@@ -1,4 +1,4 @@
-## 1. TUNiB 과제설명
+## 1. TUNiB 과제설명 - [DKTC공식 Github](https://github.com/tunib-ai/DKTC)
 해당 데이터셋은 TUNiB에서 자체적으로 제작한 데이터인 DKTC(Dataset of Korean Threatening Converstations)으로 classification task 수행합니다.<br>여기서 주어진 훈련데이터의 클래스는 총4가지('협박', '갈취', '직장 내 괴롭힘', '기타 괴롭힘')이고 테스트데이터는 여기에 '일반 대화'클래스가 하나 추가 되어있습니다.
 |Class|Traning|Test|
 |:--:|:--:|:--:|
@@ -25,4 +25,7 @@
 - 프레임워크 : Tensorflow, Huggingface,
 - 작업 환경 : Google Colab, GCP
 - 회의록 주소 : https://www.notion.so/e204ff1bd98d445e927121eaf36b59ed
-## 4.
+## 4. 프로젝트 진행 과정 리더보드
+|기간|세부사항|Result|
+|:--:|:--:|:--:|
+| <베이스라인 설계><br>22/11/01 ~ 22/11/09 | 사용모델 : klue bert, klue roberta, KcELECTRA, KcT5<br> 성능측정 : F1 score<br> 기타사항 : 일반대화x, 전처리x|F1 score : 0.88 ~ 0.94|
