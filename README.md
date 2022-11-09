@@ -26,7 +26,7 @@
 - 프로그래밍 언어 : Python3
 - 프레임워크 : Tensorflow, Huggingface,
 - 작업 환경 : Google Colab, GCP
-- 회의록 주소 : https://www.notion.so/e204ff1bd98d445e927121eaf36b59ed
+- 회의록 주소 : https://deep-passive-bf2.notion.site/e204ff1bd98d445e927121eaf36b59ed
 
 ## 4. 프로젝트 진행 과정 리더보드
 |기간|세부사항|Result|
