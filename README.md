@@ -44,3 +44,4 @@
 
 전처리
 - [한국어 전처리 패키지](https://wikidocs.net/92961)
+- [KorEDA](https://github.com/catSirup/KorEDA/tree/master)
