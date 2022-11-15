@@ -33,7 +33,7 @@
 |:--:|:--:|:--:|
 | <베이스라인 설계><br>22/11/01 ~ 22/11/09 | 사용모델 : klue bert, klue roberta, KcELECTRA, KeT5<br> 성능측정 : F1 score<br> 기타사항 : 일반대화x, 전처리x|F1 score : 0.88 ~ 0.94|
 | <Labeling 작업> <br>22/11/10 ~ 22/11/13 | Train Data를 다양한 방식으로 input하기위해 추가적 라벨링을 진행 | 1 : 가해자 <br> 2 : 피해자 |
-| <EDA> <br>22/11/14 ~ 22/11/ | 
+| < EDA > <br>22/11/14 ~ 22/11/ | 
 
 ## 5. Reference
 모델 선택
