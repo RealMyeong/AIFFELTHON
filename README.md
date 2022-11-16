@@ -38,12 +38,12 @@
 ## 5. Reference
 모델 선택
 - [한국어 사전학습 모델 (Korean Pre-trained Language Model)](https://sooftware.io/korean-plm/)
-- 추가해주세요
 
 데이터 수집
 - [AI hub](https://aihub.or.kr/?utm_source=google&utm_medium=search&utm_campaign=ga&gclid=CjwKCAjw6raYBhB7EiwABge5KnZuqLSaXjiqfgAETqQwG-_7B2r2e26nDY5cOiNSvrwEUrvIsW9GcRoCRCgQAvD_BwE)
 - [용도별 목적대화 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100)
 - [주제별 텍스트 일상 대화 데이터](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100)
+
 전처리
 - [한국어 전처리 패키지](https://wikidocs.net/92961)
 - [KorEDA](https://github.com/catSirup/KorEDA/tree/master)
