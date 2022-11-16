@@ -37,7 +37,11 @@
 
 ## 5. Reference
 모델 선택
-- [한국어 사전학습 모델 (Korean Pre-trained Language Model)](https://sooftware.io/korean-plm/)
+- Transformer
+  - [한국어 사전학습 모델 (Korean Pre-trained Language Model)](https://sooftware.io/korean-plm/)
+- RNN
+  - LSTM
+  - BiLSTM
 
 데이터 수집
 - [AI hub](https://aihub.or.kr/?utm_source=google&utm_medium=search&utm_campaign=ga&gclid=CjwKCAjw6raYBhB7EiwABge5KnZuqLSaXjiqfgAETqQwG-_7B2r2e26nDY5cOiNSvrwEUrvIsW9GcRoCRCgQAvD_BwE)
