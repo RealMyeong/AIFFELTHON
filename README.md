@@ -25,7 +25,7 @@
 ## 3. 프로젝트 환경
 - 프로그래밍 언어 : Python3
 - 프레임워크 : Tensorflow, Huggingface,
-- 작업 환경 : Google Colab, GCP(GPU : Tesla_v100)
+- 작업 환경 : Google Colab, jupyter notebook(GPU : Tesla_t4), GCP(GPU : Tesla_v100)
 - 회의록 주소 : https://deep-passive-bf2.notion.site/e204ff1bd98d445e927121eaf36b59ed
 
 ## 4. 프로젝트 진행 과정 리더보드
