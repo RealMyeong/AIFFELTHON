@@ -46,3 +46,6 @@
 전처리
 - [한국어 전처리 패키지](https://wikidocs.net/92961)
 - [KorEDA](https://github.com/catSirup/KorEDA/tree/master)
+
+EDA
+- [자연어처리_키워드추출](https://soyoung-new-challenge.tistory.com/45)
