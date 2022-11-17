@@ -24,7 +24,7 @@
 
 ## 3. 프로젝트 환경
 - 프로그래밍 언어 : Python3
-- 프레임워크 : Tensorflow, Huggingface,
+- 프레임워크 : Tensorflow, Huggingface
 - 작업 환경 : Google Colab, jupyter notebook(GPU : Tesla_t4), GCP(GPU : Tesla_v100)
 - 회의록 주소 : https://deep-passive-bf2.notion.site/e204ff1bd98d445e927121eaf36b59ed
 
@@ -33,7 +33,8 @@
 |:--:|:--:|:--:|
 | <베이스라인 설계><br>22/11/01 ~ 22/11/09 | 사용모델 : klue bert, klue roberta, KcELECTRA, KeT5<br> 성능측정 : F1 score<br> 기타사항 : 일반대화x, 전처리x|F1 score : 0.88 ~ 0.94|
 | <Labeling 작업> <br>22/11/10 ~ 22/11/13 | Train Data를 다양한 방식으로 input하기위해 추가적 라벨링을 진행 | 1 : 가해자 <br> 2 : 피해자 |
-| < EDA > <br>22/11/14 ~ 22/11/ | 
+| < EDA > <br>22/11/14 ~ 22/11/16 | 1. 클래스별 핵심 키워드 추출<br>2. 역번역 성능확인<br>3. LSTM baseline<br>4. 일반대화셋 추가 | 키워드 추출 방식 : KR-wordrank<br> LSTM_f1 : 0.79<br> 역번역 : 파파고,구글API 사용 | 
+|< ?? ><br>22/11/17 ~ 22/11/99 |
 
 ## 5. Reference
 모델 선택
