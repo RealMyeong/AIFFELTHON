@@ -56,3 +56,6 @@
 
 EDA
 - [자연어처리_키워드추출](https://soyoung-new-challenge.tistory.com/45)
+
+Data Augmentation
+- [한국어 사전학습 임베딩](https://github.com/Kyubyong/wordvectors)
