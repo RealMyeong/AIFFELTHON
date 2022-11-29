@@ -36,7 +36,8 @@
 | \<EDA> <br>22/11/14 ~ 22/11/16 | - 클래스별 핵심 키워드 추출<br>- 역번역 성능확인<br>- LSTM baseline<br>- 일반대화셋 추가 | 키워드 추출 방식 : KR-wordrank<br> LSTM_f1 : 0.79<br> 역번역 : 파파고API  | 
 |\<LSTM 성능실험><br>22/11/17 ~ 22/11/19 | - LSTM, BiLSTM 성능실험<br> - 역번역 추가 후 성능실험| <최고 성능><br>LSTM_bt_2000 : 0.74<br> BiLSTM_bt_2000 : 0.76|
 | \<Text Augmentation><br>22/11/20 ~ 22/11/24 | Model : LSTM, BiLSTM, transformer<br>Augmentation : BT, RS, RI, SR, MLM| BT, RI, MLM : 성능향상o|
-| \<Bert 성능실험><br>22/11/25 ~ 22/| \<Model><br>-klue/bert-base<br>-Kc-ELECTRA-base<br>-KLUE/RoBERTa-large|\<최고 성능><br>klue/bert-base : 0.82<br>Kc-ELECTRA-base : 0.86<br>KLUE/RoBERTa-large : 0.85|
+| \<Bert 성능실험><br>22/11/25 ~ 22/11/28| \<Model><br>-klue/bert-base<br>-Kc-ELECTRA-base<br>-KLUE/RoBERTa-large|\<최고 성능><br>klue/bert-base : 0.82<br>Kc-ELECTRA-base : 0.86<br>KLUE/RoBERTa-large : 0.85|
+| <중간 발표회><br>22/11/29 ~ 22/11/30|
 ## 5. Reference
 모델 선택
 - Transformer
