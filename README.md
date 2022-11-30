@@ -35,7 +35,7 @@
 | <Labeling 작업> <br>22/11/10 ~ 22/11/13 | Train Data를 다양한 방식으로 input하기위해 추가적 라벨링을 진행 | 1 : 가해자 <br> 2 : 피해자 |
 | \<EDA> <br>22/11/14 ~ 22/11/16 | - 클래스별 핵심 키워드 추출<br>- 데이터 분포 확인<br>- 역번역 성능확인<br>- 일반대화셋 추가 | 키워드 추출 방식 : KR-wordrank<br> 역번역 : 파파고API  | 
 | \<Text Augmentation><br>22/11/17 ~ 22/11/24 | Model : LSTM, BiLSTM, transformer<br>Augmentation : BT, RS, RI, SR, MLM| <최고 성능><br> LSTM_BT : 0.765<br> Transformer_MLM : 0.781 |
-| \<Pretrained Model 성능실험><br>22/11/25 ~ 22/11/29| \<Model><br>-klue/bert-base<br>-KcELECTRA-base<br>-klue/RoBERTa-large<br>-kcBert-large|\<최고 성능><br>klue/bert-base : 0.853<br>Kc-ELECTRA-base : 0.872<br>KLUE/RoBERTa-large : 0.851<br>-kcBert-large : 0.861|
+| \<사전학습모델 성능실험><br>22/11/25 ~ 22/11/29| \<Model><br>-klue/bert-base<br>-KcELECTRA-base<br>-klue/RoBERTa-large<br>-kcBert-large|\<최고 성능><br>klue/bert-base : 0.853<br>Kc-ELECTRA-base : 0.872<br>KLUE/RoBERTa-large : 0.851<br>-kcBert-large : 0.861|
 | <중간 발표회><br>22/11/30| 프레젠테이션 발표|
 ## 5. Reference
 모델 선택
