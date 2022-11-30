@@ -33,9 +33,8 @@
 |:--:|:--:|:--:|
 | <베이스라인 설계><br>22/11/01 ~ 22/11/09 | 사용모델 : klue bert, klue roberta, KcELECTRA, KeT5<br> 성능측정 : F1 score<br> 기타사항 : 일반대화x, 전처리x|F1 score : 0.88 ~ 0.94|
 | <Labeling 작업> <br>22/11/10 ~ 22/11/13 | Train Data를 다양한 방식으로 input하기위해 추가적 라벨링을 진행 | 1 : 가해자 <br> 2 : 피해자 |
-| \<EDA> <br>22/11/14 ~ 22/11/16 | - 클래스별 핵심 키워드 추출<br>- 역번역 성능확인<br>- LSTM baseline<br>- 일반대화셋 추가 | 키워드 추출 방식 : KR-wordrank<br> LSTM_f1 : 0.79<br> 역번역 : 파파고API  | 
-|\<LSTM 성능실험><br>22/11/17 ~ 22/11/19 | - LSTM, BiLSTM 성능실험<br> - 역번역 추가 후 성능실험| <최고 성능><br>LSTM_bt_2000 : 0.74<br> BiLSTM_bt_2000 : 0.76|
-| \<Text Augmentation><br>22/11/20 ~ 22/11/24 | Model : LSTM, BiLSTM, transformer<br>Augmentation : BT, RS, RI, SR, MLM| BT, RI, MLM : 성능향상o|
+| \<EDA> <br>22/11/14 ~ 22/11/16 | - 클래스별 핵심 키워드 추출<br>- 역번역 성능확인<br>- LSTM baseline<br>- 일반대화셋 추가 | 키워드 추출 방식 : KR-wordrank<br> 역번역 : 파파고API  | 
+| \<Text Augmentation><br>22/11/17 ~ 22/11/24 | Model : LSTM, BiLSTM, transformer<br>Augmentation : BT, RS, RI, SR, MLM| <최고 성능><br> LSTM_BT : 0.765 |
 | \<Bert 성능실험><br>22/11/25 ~ 22/11/28| \<Model><br>-klue/bert-base<br>-Kc-ELECTRA-base<br>-KLUE/RoBERTa-large|\<최고 성능><br>klue/bert-base : 0.82<br>Kc-ELECTRA-base : 0.86<br>KLUE/RoBERTa-large : 0.85|
 | <중간 발표회><br>22/11/29 ~ 22/11/30|
 ## 5. Reference
