@@ -59,3 +59,6 @@ EDA
 Data Augmentation
 - [한국어 사전학습 임베딩](https://github.com/Kyubyong/wordvectors)
 - [EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks](https://arxiv.org/pdf/1901.11196.pdf)
+
+Supervised Contrastive Learning
+- [Supervised Contrastive Learning for Pre-trained Language Model Fine-Tuning](https://arxiv.org/pdf/2011.01403.pdf)
